@@ -1,6 +1,5 @@
 <template>
  <div class="pos">
-   Hello AwesomePos demo
  </div>
 </template>
 
