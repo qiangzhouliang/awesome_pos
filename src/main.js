@@ -3,8 +3,13 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+//element 引入开始
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css';
+//element 引入结束
 
 Vue.config.productionTip = false
+Vue.use(ElementUI)
 
 /* eslint-disable no-new */
 new Vue({
